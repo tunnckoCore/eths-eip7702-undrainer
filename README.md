@@ -3,7 +3,8 @@
 To save struck Ethscriptions in a wallet that has attached drainer, you should
 
 1. Make sure to have https://bun.com installed
-2. Then populate env variables in `.env`
+2. Git clone the repository
+3. Then populate env variables in `.env`
 
 ```.env
 EOA_PRIVATE_KEY=0x_private_key
@@ -12,14 +13,10 @@ RECIPIENT=0x_address
 ETHSCRIPTIONS=0xTransactionHash1,0xTransactionHash2,0xTransactionHash3
 ```
 
-then run the script and wait until it finishes
+4. then run the script and wait until it finishes
 
 ```
 bun run ./cli.ts
-
-# or
-
-bunx
 ```
 
 ### How it works.
